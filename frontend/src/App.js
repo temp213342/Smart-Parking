@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <ParkingSystem parkingData={parkingData} setParkingData={setParkingData} />
+      <Toaster />
     </div>
   );
 }
